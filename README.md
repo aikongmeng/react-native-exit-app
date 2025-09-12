@@ -72,7 +72,7 @@ Or manual: add the latest version as dependeny to your package.json.
 ## Usage
 
 ```javascript
-import RNExitApp from 'react-native-exit-app';
+import RNExitApp from 'react-native-exit-app-modify';
 ...
 RNExitApp.exitApp();
 ...
