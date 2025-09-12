@@ -1,16 +1,7 @@
 {
-  "name": "react-native-exit-app",
-  "version": "2.0.1",
+  "name": "react-native-exit-app-modify",
+  "version": "2.0.2",
   "description": "Exit,close,kill,shutdown app completely for React Native on iOS and Android.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/aikongmeng/react-native-exit-app"
-  },
-  "types": "index.d.ts",
   "keywords": [
     "react",
     "native",
@@ -21,12 +12,22 @@
     "android",
     "ios"
   ],
-  "author": "aikongmeng",
-  "license": "MIT",
+  "homepage": "https://github.com/aikongmeng/react-native-exit-app",
   "bugs": {
     "url": "https://github.com/aikongmeng/react-native-exit-app/issues"
   },
-  "homepage": "https://github.com/aikongmeng/react-native-exit-app",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aikongmeng/react-native-exit-app.git"
+  },
+  "license": "MIT",
+  "author": "aikongmeng",
+  "type": "commonjs",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "codegenConfig": {
     "name": "RNExitAppSpec",
     "type": "modules",

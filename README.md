@@ -1,23 +1,29 @@
+
+# modify:
+
+- Fix importing RNExitAppSpec.h in react-native v0.76+
+
 # react-native-exit-app
+
 Exit / Close / Kill / shutdown your react native app. Does not invoke a crash notification.
 
 NOTICE:
-- for React Native < 0.47 use react-native-exit-app <1.x.x
-- for React Native > 0.47 use react-native-exit-app >=1.x.x
-- React Native with **new architecture** enabled use react-native-exit-app >=2.x.x (**compatible with old architecture**)
+- for React Native < 0.47 use react-native-exit-app-modify <1.x.x
+- for React Native > 0.47 use react-native-exit-app-modify >=1.x.x
+- React Native with **new architecture** enabled use react-native-exit-app-modify >=2.x.x (**compatible with old architecture**)
 
 ## Setup
 
 NOTICE:
 Installation steps can be skipped in new architecture and newer React Native versions, just 
 ```bash
-npm install react-native-exit-app --save
+npm install react-native-exit-app-modify --save
 ```
 
 Fast and easy:
 ```bash
-npm install react-native-exit-app --save
-react-native link react-native-exit-app
+npm install react-native-exit-app-modify --save
+react-native link react-native-exit-app-modify
 ```
 
 Or manual: add the latest version as dependeny to your package.json.
@@ -29,7 +35,7 @@ Or manual: add the latest version as dependeny to your package.json.
   },
   "dependencies": {
     ...
-    "react-native-exit-app": "0.1.0",
+    "react-native-exit-app-modify": "2.0.1",
     ...
   }
 ```
@@ -42,12 +48,12 @@ Or manual: add the latest version as dependeny to your package.json.
 #### Android
 * In the settings.gradle
   ```
-    include ':react-native-exit-app', ':app'
-    project(':react-native-exit-app').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-exit-app/android')
+    include ':react-native-exit-app-modify', ':app'
+    project(':react-native-exit-app-modify').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-exit-app-modify/android')
   ```
 * In the build.gradle
   ```
-    compile project(':react-native-exit-app')
+    compile project(':react-native-exit-app-modify')
   ```
 * In MainApplication.java
   ```
