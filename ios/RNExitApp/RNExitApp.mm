@@ -3,7 +3,7 @@
 #import "RNExitApp.h"
 
 #if RCT_NEW_ARCH_ENABLED
-#import <ReactCodegen/RNExitAppSpec/RNExitAppSpec.h>
+#import "RNExitAppSpec.h"
 #endif
 
 @implementation RNExitApp

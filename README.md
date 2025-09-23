@@ -35,7 +35,7 @@ Or manual: add the latest version as dependeny to your package.json.
   },
   "dependencies": {
     ...
-    "react-native-exit-app-modify": "2.0.4",
+    "react-native-exit-app-modify": "2.0.5",
     ...
   }
 ```
