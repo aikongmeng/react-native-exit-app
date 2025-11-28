@@ -1,6 +1,6 @@
 {
   "name": "react-native-exit-app-modify",
-  "version": "2.0.5",
+  "version": "2.0.6",
   "description": "Exit,close,kill,shutdown app completely for React Native on iOS and Android.",
   "keywords": [
     "react",
